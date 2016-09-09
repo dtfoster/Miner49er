@@ -1,0 +1,14 @@
+source('./config.R')
+source('./functions.R')
+
+
+
+startTime = proc.time()[3]
+
+Vcalc(A,m,n)
+
+endTime = proc.time()[3]
+
+runTime = endTime- startTime
+
+print(runTime)
