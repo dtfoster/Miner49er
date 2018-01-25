@@ -12,3 +12,11 @@ endTime = proc.time()[3]
 runTime = endTime- startTime
 
 print(runTime)
+
+
+# 
+# 
+# #what action will player x take?
+# .....
+# #what card was drawn / OK, player x has left
+# ...... / playerxLeft = True
